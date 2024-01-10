@@ -94,6 +94,7 @@ def new_test():
     
     def correct_answer_1():
         global question_numbers
+        
         question_numbers += 1
 
         correct_answer = 1
@@ -120,6 +121,7 @@ def new_test():
         
     def correct_answer_2():
         global question_numbers
+        
         question_numbers += 1
 
         correct_answer = 2
@@ -145,8 +147,8 @@ def new_test():
         Two_test.adding_new_question(ID_test, rec_queschen, rec_answerre_1, rec_answerre_2, rec_answerre_3, correct_answer, question_numbers)
 
     def correct_answer_3():
-
         global question_numbers
+        
         question_numbers += 1
 
         
